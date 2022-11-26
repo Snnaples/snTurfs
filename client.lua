@@ -457,7 +457,6 @@ local spawnTurfsHandler <const> = RegisterNetEvent('snTurfs:spawnTurfs', functio
     end)
 end)
 
-print(GetPlayerName(32))
 
 end)() end
 
