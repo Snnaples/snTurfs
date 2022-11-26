@@ -1,0 +1,191 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500;600&family=Poppins:wght@100;300&display=swap');
+
+
+html, body {
+    margin: 0;
+    padding: 6px;
+    overflow: hidden;
+}
+
+.killContainer {
+    height: 34px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 230px;
+    background: rgba(0,0,0,0.44);
+    position: relative;
+    top: 580px;
+    left: 86%;
+    border-radius: 12px 30px;
+    color: #FFF;
+    font-family: 'Baloo Chettan 2', cursive;
+    line-height: 34px;
+    font-size: 18px;
+    text-align: center;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    margin-bottom: 8px;
+}
+
+.weapon {
+    height: 20px;
+    padding-top: 6px;
+    display: inline;
+    vertical-align: top;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.killer {
+    color: rgb(0, 165, 0);
+}
+
+.killed {
+    color: rgb(255, 35, 35);
+}
+
+.clear {
+    clear:both
+}
+
+
+@font-face {
+    font-family: Fugaz One;
+    src: url(https://fonts.gstatic.com/s/fugazone/v10/rax_HiWKp9EAITukFsl8Axhf.woff2);
+    font-weight: bold;
+  }
+  
+  html {
+      color: #34495e;
+      font-family:Fugaz One;
+      font-weight:bold;
+  }
+  
+  ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      border-radius: 10px;
+      background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar {
+      width: 8px;
+      background-color: rgba(208, 208, 217, 0.4);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.6);
+      background-color: rgba(186, 47, 250, 100);
+  }
+  
+  #wrap {
+      font-family:Fugaz One;
+      font-weight:bold;
+      width: 58vw;
+      min-height: 185px;
+      margin-top: 3%;
+      margin-left: auto;
+      margin-right: auto;
+      color: rgb(0, 102, 255);
+      border-radius: 2px;
+  }
+  
+  .tcontent {
+      max-height: 80%;
+      overflow-x: auto;
+  }
+  
+  .playerlist {
+    
+      width: 40%;
+      border-bottom: 3px solid rgb(0, 102, 255);
+      border-radius: 10px;
+ 
+      margin: 0 auto;
+      margin-top: 320px;
+  }
+  
+  p {
+      font-family:Fugaz One;
+      font-weight:bold;
+      float: left;
+      margin-left: 14px;
+      padding-left: 14px;
+      font-size: 0.75vw;
+  }
+  
+  .jobs {
+      font-family:Fugaz One;
+      font-weight:bold;
+      padding-top: 10px;
+      background-color: rgba(80, 80, 80, 0.4);
+      height: 2vw;
+      width: 100%;
+      box-shadow: 0px 0px 2px rgba(208, 208, 217, 0.4);
+      border-top: 3px solid rgb(0, 102, 255);
+      border-radius: 10px;
+  }
+  
+  .jobs p {
+      font-family: Fugaz One;
+      font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+      position: absolute;
+      left: 44%;
+      top: 5%;
+  }
+  
+  table {
+      background: rgba(80, 80, 80, 0.4);
+      /* box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.502), 0px 2px 10px 0px rgba(0, 0, 0, 0.5); */
+      text-align: left;
+      color: white;
+      overflow: scroll;
+      /* height:80em; */
+      border-collapse: collapse;
+      margin-top: 20px;
+      border-radius: 10px;
+  }
+  
+  th, td {
+      font-family:Fugaz One;
+      font-weight:bold;
+      padding-left: 30px;
+  }
+  
+  th {
+      font-family:Fugaz One;
+      font-weight:bold;
+      padding-top: 10px;
+      height: 40px;
+  }
+  
+  tr {
+      font-family:Fugaz One;
+      font-size: 0.58vw;
+      text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.5);
+      letter-spacing: 1px;
+  }
+  
+  tr.heading {
+      font-family:Fugaz One;
+      font-weight:bold;
+      font-size: 0.5vw;
+      color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .serverinfo {
+      font-family:Fugaz One;
+      font-weight:bold;
+      font-size: 0.9vw;
+      text-align: center;
+      color: rgb(0, 102, 255);
+      text-shadow: 1px 1px 2px black;
+  }
+  
